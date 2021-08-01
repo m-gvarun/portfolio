@@ -1,0 +1,206 @@
+/* For the background_img */
+
+#title{
+    /* width: 100%;
+    height: 100vh;
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden; */
+
+    background-color:#000;
+    padding-bottom: 7%;
+    color: #fff;
+}
+
+
+
+/* about-me */
+
+.about-me{
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-bottom: 5px;
+}
+
+.fluid1{
+    padding: 3% 15%;
+}
+
+.profile_pic{
+    border-radius: 25%;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    right: 13%;
+    top: 10%;
+}
+
+.para1{
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+
+.icon1{
+    padding-right:6px;
+}
+
+/* Navigation-bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight:400;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* for responsive */
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .profile_pic{
+        position: static;
+        padding: 30px 0px;
+    }
+}
+
+/* skills */
+
+#skills{
+    padding-top: 5%;
+}
+
+.skills_heading{
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
+
+.icons{
+    width: 70px;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.icon_div{
+    padding-top: 3%;
+    padding-bottom: 7%;
+}
+
+@media (max-width:500px){
+    .icons{
+        padding-top: 13%;
+        padding-bottom: 13%;
+    }
+}
+
+/* experience */
+
+#experience{
+    background-color: #000;
+    color:bisque;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+
+.exp_heading{
+    padding-bottom: 3%;
+}
+
+.exp_theory{
+    padding-bottom: 3%;
+    color: grey;
+}
+
+@media (max-width: 500px){
+    .exp_heading{
+        padding-bottom: 10%;
+    }
+}
+
+/* training */
+
+#training{
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.trng_para{
+    padding-bottom: 1%;
+}
+
+.short-text { display: none; }
+
+@media (max-width: 500px) {
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
+    .trng_heading{
+        padding-top: 5%;
+        font-size: 1.5rem;
+        padding-bottom: 3%;
+    }
+    #training{
+        padding-bottom: 13%;
+    }
+}
+
+/* contact_me */
+
+#contact{
+    text-align: center;
+    background-color: #000;
+    color:#fff;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+
+.cnt_heading{
+    padding-bottom: 3%;
+}
+
+.btn2{
+    margin-bottom: 2%;
+}
+
+.cnt_icons{
+    font-size: 2rem;
+    padding: 2%;
+}
+
+.copyright{
+    padding-top: 5%;
+}
+
+@media (max-width:500px){
+    .cnt_heading{
+        font-size: 1.3rem;
+        padding:5%;
+    }
+    .btn2{
+        margin-top: 5%;
+        margin-bottom: 13%;
+    }
+    .cnt_icons{
+        padding: 5%;
+    }
+}
